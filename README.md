@@ -56,7 +56,7 @@
 # 修改用户配置文件
 Win+R
  %appdata%/GreenHub/Config.json
-```
+
 
 ---
 
@@ -65,6 +65,7 @@ Win+R
 > This tool is provided **for educational purposes only**. Commercial use is strictly prohibited. Users shall bear all legal responsibilities, and the developer holds no liability.
 
 ---
+
 
 ###### Made with ❤️ by Hy1Fly | [项目地址 Project Link](https://github.com/Hy1Fly/GreenHub-UnlockTool)
 ###### Thank for ❤️ bilibiliLXZY | [User Home](https://github.com/bilibiliLXZY)
