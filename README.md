@@ -24,19 +24,11 @@
 
 2. 启动解锁工具  
    **Launch UnlockTool:**
-   ```bash
   双击运行 UnlockTool.exe
   Double-click UnlockTool.exe
-   ```
 
-3. 输入激活码  
-   **Enter activation code:**
-   ```
-   [输入界面示意图]
-   ------------------
-   | Enter Code: ___ |
-   ------------------
-   ```
+3. 输入代码
+   **Enter code:**
 
 4. 享受完整功能 🎉  
    **Enjoy full access!**
@@ -59,11 +51,11 @@
    ```
    ![Resource Folder](https://github.com/user-attachments/assets/094a3d88-a55e-43f5-b35f-3a978699e09c)
 
-### 第二阶段：运行时配置  
-**Phase 2: Runtime Configuration**
-```bash
+### 第二阶段：配置
+**Phase 2: Config**
 # 修改用户配置文件
-Edit %appdata%/GreenHub/Config.json
+Win+R
+ %appdata%/GreenHub/Config.json
 ```
 
 ---
@@ -75,3 +67,4 @@ Edit %appdata%/GreenHub/Config.json
 ---
 
 ###### Made with ❤️ by Hy1Fly | [项目地址 Project Link](https://github.com/Hy1Fly/GreenHub-UnlockTool)
+###### Thank for ❤️ bilibiliLXZY | [User Home](https://github.com/bilibiliLXZY)
