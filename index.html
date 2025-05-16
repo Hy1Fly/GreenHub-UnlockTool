@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenHub UnlockTool - 解锁专业功能</title>
+    <style>
+        :root {
+            --primary-color: #2ecc71;
+            --secondary-color: #27ae60;
+            --background: #f5f6fa;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: var(--background);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+
+        .section {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-top: 0;
+        }
+
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .feature-card {
+            padding: 20px;
+            border-left: 4px solid var(--primary-color);
+            background: #f8f9fa;
+        }
+
+        .code-block {
+            background: #2d3436;
+            color: #dfe6e9;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+
+        img.preview {
+            width: 100%;
+            max-width: 600px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>GreenHub UnlockTool 🔓</h1>
+            <a href="https://github.com/Hy1Fly/GreenHub-UnlockTool" class="badge">查看GitHub项目</a>
+        </header>
+
+        <div class="section">
+            <h2>✨ 功能特性</h2>
+            <div class="feature-list">
+                <div class="feature-card">
+                    <h3>完全免费使用</h3>
+                    <p>解锁GreenHub所有高级功能，包括专业版专属工具</p>
+                </div>
+                <div class="feature-card">
+                    <h3>无限时长</h3>
+                    <p>永久延长使用期限，无需续费</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ 使用指南</h2>
+            <div class="step">
+                <div class="step-number">1</div>
+                <div>
+                    <h3>下载必要文件</h3>
+                    <p>获取 UnlockTool.exe 和 ACG.exe</p>
+                </div>
+            </div>
+            <!-- 更多步骤... -->
+        </div>
+
+        <div class="section">
+            <h2>🔍 技术原理</h2>
+            <h3>配置文件解析</h3>
+            <div class="code-block">
+                /resource/
+                └── config.json
+            </div>
+            <img src="path-to-image.jpg" class="preview" alt="配置示例">
+        </div>
+
+        <div class="warning">
+            <h3>⚠️ 重要声明</h3>
+            <p>本工具仅用于技术学习交流，禁止商业用途。使用者需自行承担法律责任。</p>
+        </div>
+
+        <footer>
+            <p>Made with ❤️ by Hy1Fly</p>
+            <p>Special thanks to bilibiliLXZY</p>
+        </footer>
+    </div>
+</body>
+</html>
