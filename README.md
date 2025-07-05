@@ -11,7 +11,8 @@
   免费使用 GreenHub 的所有功能！
 - **Extend use time indefinitely**  
   无限延长使用时间！
-
+- **Support any version**
+  支持任意版本
 ---
 
 ## 🛠️ 使用方法 (Usage Guide)
@@ -37,8 +38,8 @@
 
 ## 🔍 实现原理 (Technical Principle)
 
-### 第一阶段：配置文件解析  
-**Phase 1: Configuration Analysis**
+### 第一阶段：代码获取
+**Phase 1: Get Code**
 1. 打开 GreenHub 根目录  
    **Navigate to GreenHub root folder:**
    ![Root Folder](https://github.com/user-attachments/assets/e052901a-0237-4362-b2d3-7e45f2d93809)
@@ -47,7 +48,7 @@
    **Access resource files:**
    ```bash
    /resource/
-   └── config.json
+   └── app.asar
    ```
    ![Resource Folder](https://github.com/user-attachments/assets/094a3d88-a55e-43f5-b35f-3a978699e09c)
 
