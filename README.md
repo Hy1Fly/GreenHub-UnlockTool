@@ -1,14 +1,12 @@
-<div align="center">
+
 <a href="https://hy1fly.github.io/GreenHub-UnlockTool/"><img src="https://raw.githubusercontent.com/Hy1Fly/GreenHub-UnlockTool/main/png/logo.png" style="width: 128px;" alt="logo"></a>
-<h1 align="center">GreenHub</h1>
-<h1 align="center">UnlockTool</h1>
-一款用于解锁 GreenHub 高级功能的工具 | A tool to unlock premium features of GreenHub
+<h1 align="center">GreenHub-UnlockTool</h1>
 
-
-[![GitHub](https://img.shields.io/badge/Project-Link-blue?style=flat-square)](https://github.com/Hy1Fly/GreenHub-UnlockTool)
-
+<h1 align="center"[![GitHub](https://img.shields.io/badge/Project-Link-blue?style=flat-square)](https://github.com/Hy1Fly/GreenHub-UnlockTool)</h1>
 
 ---
+<h1 align="center">一款用于解锁 GreenHub 高级功能的工具 | A tool to unlock premium features of GreenHub</h1>
+
 
 ## ✨ 功能特性 (Features)
 - **Use all features of GreenHub for free!**  
