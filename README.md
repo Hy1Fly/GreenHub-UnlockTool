@@ -20,16 +20,15 @@
 ### 步骤说明 (Step-by-Step)
 1. 下载必要文件  
    **Download required files:**
-   - `UnlockTool.exe`
-   - `ACG.exe`
+   - `UnlockTool.exe or UnlockTool-TUI.exe`
 
 2. 启动解锁工具  
    **Launch UnlockTool:**
   双击运行 UnlockTool.exe
-  Double-click UnlockTool.exe
+  Double-click UnlockTool
 
-3. 输入代码
-   **Enter code:**
+3. 输入代码(在TUI版本中)
+   **Enter code:**(on TUI Version)
 
 4. 享受完整功能 🎉  
    **Enjoy full access!**
@@ -38,8 +37,8 @@
 
 ## 🔍 实现原理 (Technical Principle)
 
-### 第一阶段：代码获取
-**Phase 1: Get Code**
+### 1.代码获取
+**1: Get src**
 1. 打开 GreenHub 根目录  
    **Navigate to GreenHub root folder:**
    ![Root Folder](https://github.com/user-attachments/assets/e052901a-0237-4362-b2d3-7e45f2d93809)
@@ -52,8 +51,8 @@
    ```
    ![Resource Folder](https://github.com/user-attachments/assets/094a3d88-a55e-43f5-b35f-3a978699e09c)
 
-### 第二阶段：配置
-**Phase 2: Config**
+### 2.配置文件
+**2: Config File**
 # 修改用户配置文件
 Win+R
  %appdata%/GreenHub/Config.json
